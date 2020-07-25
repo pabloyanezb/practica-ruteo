@@ -1,6 +1,6 @@
 <template>
-  <div>
-      <h1>Lista de restaurantes {{ $route.params.nombre }}</h1>
+  <div class="container">
+      <h1 class="teal-text text-accent-1">Lista de restaurantes {{ $route.params.nombre }}</h1>
       <ul>
           <li>Lorem ipsum dolor  adipisicing elit.</li>
           <li>sit amet consectetur</li>
@@ -17,6 +17,16 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.container {
+  text-align: center;
+}
+h1 {
+  font-weight: 700;
+}
+li {
+  font-weight: 700;
+  font-size: 17pt;
+  text-shadow: 3pt 1pt #2424248c;
+}
 </style>

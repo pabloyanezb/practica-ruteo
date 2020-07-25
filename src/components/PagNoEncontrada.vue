@@ -7,3 +7,10 @@ export default {
   name: "PagNoEncontrada",
 };
 </script>
+
+<style scoped>
+img {
+  height: 300px;
+  border-radius: 20px;
+}
+</style>

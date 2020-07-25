@@ -3,7 +3,7 @@
     <nav>
       <div class="nav-wrapper">
         <img src="../assets/logo.png" alt="logo">
-        <a href="#" class="brand-logo">DojoReviews</a>
+        <a href="#" class="brand-logo teal-text text-accent-1">DojoReviews</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li>
             <a class="btn white-text deep-orange darken-1" href="sass.html"
