@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <p>Acerca de:</p>
     <p>
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, eaque
       laborum iusto necessitatibus atque deserunt cumque tempora facere at

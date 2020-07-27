@@ -1,6 +1,5 @@
 <template>
   <div class="content">
-    <h3>Fotos:</h3>
     <div class="row">
       <div class="col m4 s12">
         <div class="card hoverable">
@@ -34,10 +33,10 @@ export default {
 </script>
 
 <style scoped>
-.content {
+/* .content {
   position: relative;
   top: -30px;
-}
+} */
 .m4 {
   height: 430px;
   overflow: hidden;

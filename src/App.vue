@@ -1,5 +1,16 @@
 <template>
   <div id="contenedor" class="black">
+    <nav>
+      <div class="nav-wrapper">
+        <!-- <img src="../assets/logo.png" alt="logo"> -->
+        <router-link :to="{ path: '/' }" class="brand-logo white-text">DojoReviews</router-link>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li>
+            <router-link :to="{ path: '/login' }" class="btn white-text grey darken-4 waves-effect waves-light">Ingreso</router-link>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <router-view></router-view>
   </div>
 </template>
@@ -23,5 +34,18 @@ export default {
   background-size: cover;
   background-position: center bottom;
   font-family: 'Oswald', sans-serif;
+}
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 60px;
+  background-color: transparent !important;
+  box-shadow: 0 0 0 0 transparent !important;
+}
+.brand-logo {
+  font-weight: 700;
+  font-size: 5vh;
 }
 </style>

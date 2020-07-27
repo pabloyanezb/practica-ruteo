@@ -1,16 +1,5 @@
 <template>
   <div class="hello">
-    <nav>
-      <div class="nav-wrapper">
-        <!-- <img src="../assets/logo.png" alt="logo"> -->
-        <a href="#" class="brand-logo white-text">DojoReviews</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li>
-            <a class="btn white-text grey darken-4 waves-effect waves-light">Ingreso</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
     <h1 class="white-text">Bienvenido a DojoReviews.</h1>
     <div class="row">
       <div class="col s12 l6 offset-l3">
@@ -41,24 +30,11 @@ export default {
   overflow-x: hidden;
   margin-top: 10%;
 }
-nav {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 0 60px;
-  background-color: transparent;
-  box-shadow: 0 0 0 0 transparent;
-}
 img {
   height: 50px;
   position: relative;
   left: 76px;
   top: 8px;
-}
-.brand-logo {
-  font-weight: 700;
-  font-size: 5vh;
 }
 .btn {
   text-transform: none;

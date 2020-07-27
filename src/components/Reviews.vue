@@ -1,9 +1,9 @@
 <template>
   <div class="container">
-    <h3>Reseñas:</h3>
     <div class="row">
       <div class="col m4">
         <img src="../assets/person1.jpg" />
+        <img src="../assets/star-rating.png" />
       </div>
       <div class="col m8">
         <p>
@@ -17,6 +17,7 @@
     <div class="row">
       <div class="col m4">
         <img src="../assets/person2.jpg" />
+        <img src="../assets/star-rating.png" />
       </div>
       <div class="col m8">
         <p>
