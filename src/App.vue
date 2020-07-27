@@ -1,6 +1,6 @@
 <template>
   <div id="contenedor" class="black">
-    <router-view/>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -12,10 +12,8 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 #contenedor {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   display: grid;
   place-items: center;
   height: 100vh;
@@ -23,6 +21,7 @@ export default {
   color: white;
   background-image: url('./assets/restaurant.jpg');
   background-size: cover;
-  background-position: center ;
+  background-position: center bottom;
+  font-family: 'Oswald', sans-serif;
 }
 </style>

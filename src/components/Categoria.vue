@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-      <h1 class="teal-text text-accent-1">Lista de restaurantes {{ $route.params.nombre }}</h1>
+      <h1 class="grey-text text-lighten-5">Lista de restaurantes <span>{{ $route.params.nombre }}</span></h1>
       <ul>
           <li>Lorem ipsum dolor  adipisicing elit.</li>
           <li>sit amet consectetur</li>
@@ -27,6 +27,8 @@ h1 {
 li {
   font-weight: 700;
   font-size: 17pt;
-  text-shadow: 3pt 1pt #2424248c;
+}
+span {
+  text-transform: capitalize;
 }
 </style>

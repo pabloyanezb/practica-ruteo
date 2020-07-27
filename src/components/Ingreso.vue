@@ -1,16 +1,16 @@
 <template>
   <div id="login">
-    <h2 class="teal-text text-accent-1">Ingresa a DojoReviews</h2>
+    <h2 class="grey-text text-lighten-5">Ingresa a DojoReviews</h2>
     <form>
       <div class="input-field">
         <input id="email" type="email" class="validate" required/>
-        <label class="teal-text text-accent-1" for="email">Email</label>
+        <label class="white-text" for="email">Email</label>
       </div>
       <div class="input-field">
         <input id="password" type="password" class="validate" required/>
-        <label class="teal-text text-accent-1" for="password">Contraseña</label>
+        <label class="white-text" for="password">Contraseña</label>
       </div>
-      <a class="waves-effect waves-light btn-large deep-orange accent-1">Ingresar</a>
+      <a class="waves-effect waves-light btn-large grey lighten-5 black-text">Ingresar</a>
     </form>
   </div>
 </template>
@@ -23,6 +23,8 @@ export default {
 
 <style scoped>
 #login {
+  position: relative;
+  top: -70px;
   max-width: 380px;
   height: fit-content;
   text-align: center;
@@ -38,7 +40,7 @@ label {
   margin-left: 10px;
 }
 h2 {
-  margin-bottom: 10%;
+  display: inline;
   font-weight: 800;
   text-justify: auto;
 }

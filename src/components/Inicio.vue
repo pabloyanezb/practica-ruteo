@@ -2,22 +2,25 @@
   <div class="hello">
     <nav>
       <div class="nav-wrapper">
-        <img src="../assets/logo.png" alt="logo">
-        <a href="#" class="brand-logo teal-text text-accent-1">DojoReviews</a>
+        <!-- <img src="../assets/logo.png" alt="logo"> -->
+        <a href="#" class="brand-logo white-text">DojoReviews</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li>
-            <a class="btn white-text deep-orange darken-1" href="sass.html"
-              >Ingreso</a
-            >
+            <a class="btn white-text grey darken-4 waves-effect waves-light">Ingreso</a>
           </li>
         </ul>
       </div>
     </nav>
-    <h1 class="deep-orange-text text-accent-1">Bienvenido a DojoReviews.</h1>
-    <p class="flow-text">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquam
-      quae repudiandae a modi dolorum sint ipsa distinctio, in soluta.
-    </p>
+    <h1 class="white-text">Bienvenido a DojoReviews.</h1>
+    <div class="row">
+      <div class="col s12 l6 offset-l3">
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquam
+        quae repudiandae a modi dolorum sint ipsa distinctio, in soluta.
+        </p>
+      </div>  
+    </div>
+    
   </div>
 </template>
 
@@ -35,8 +38,15 @@ export default {
 .hello {
   display: grid;
   place-items: center;
+  overflow-x: hidden;
+  margin-top: 10%;
 }
 nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 60px;
   background-color: transparent;
   box-shadow: 0 0 0 0 transparent;
 }
@@ -47,25 +57,22 @@ img {
   top: 8px;
 }
 .brand-logo {
-  margin-left: 80px;
   font-weight: 700;
-  font-size: 26pt;
+  font-size: 5vh;
 }
-#nav-mobile a {
-  color: rgba(0, 0, 0, 0.794);
-  font-weight: 800;
-  text-transform: uppercase;
+.btn {
+  text-transform: none;
 }
 h1 {
+  display: inline;
+  overflow-wrap: break-word;
   text-align: center;
-  margin-top: 12%;
+  font-size: 45pt;
   font-weight: 700;
 }
 p {
-  margin: 0 31%;
   text-align: center;
-  font-weight: 700;
-  font-size: 22pt;
-  text-shadow: 3pt 1pt #242424c2;
+  font-size: 3vh;
+  display : block; overflow-wrap: break-word; max-width : 100%;
 }
 </style>

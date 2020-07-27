@@ -1,0 +1,51 @@
+<template>
+  <div class="container">
+    <h3>Reseñas:</h3>
+    <div class="row">
+      <div class="col m4">
+        <img src="../assets/person1.jpg" />
+      </div>
+      <div class="col m8">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti,
+          eaque laborum iusto necessitatibus atque deserunt cumque tempora
+          facere at corporis repellendus voluptate sint pariatur culpa ipsa fuga
+          esse veritatis consequatur?
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col m4">
+        <img src="../assets/person2.jpg" />
+      </div>
+      <div class="col m8">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae,
+          cupiditate animi at aliquam ipsum ipsa sit facilis distinctio a
+          debitis corrupti in eum, fuga non! Consequuntur facilis animi alias
+          numquam.
+        </p>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Reviews",
+};
+</script>
+
+<style scoped>
+.container {
+  text-align: center;
+}
+p {
+  margin: 30px 0;
+  font-weight: 700;
+  font-size: 17pt;
+}
+img {
+  width: 100%;
+}
+</style>
