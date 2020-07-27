@@ -23,9 +23,4 @@ h1 {
   font-weight: 700;
   text-transform: capitalize;
 }
-p {
-  margin: 30px 0;
-  font-weight: 700;
-  font-size: 17pt;
-}
 </style>

@@ -3,10 +3,10 @@
     <nav>
       <div class="nav-wrapper">
         <!-- <img src="../assets/logo.png" alt="logo"> -->
-        <router-link :to="{ path: '/' }" class="brand-logo white-text">DojoReviews</router-link>
+        <router-link :to="{ name: 'inicio' }" class="brand-logo white-text">DojoReviews</router-link>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li>
-            <router-link :to="{ path: '/login' }" class="btn white-text grey darken-4 waves-effect waves-light">Ingreso</router-link>
+            <router-link :to="{ name: 'login' }" class="btn white-text grey darken-4 waves-effect waves-light">Ingreso</router-link>
           </li>
         </ul>
       </div>

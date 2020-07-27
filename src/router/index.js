@@ -16,11 +16,13 @@ export default new VueRouter({
     routes: [
         {
             path: '/', 
-            component: Inicio
+            component: Inicio,
+            name: 'inicio'
         },
         {
             path: '/login',
-            component: Ingreso
+            component: Ingreso,
+            name: 'login'
         },
         {
             path: '/:nombre',
@@ -28,25 +30,30 @@ export default new VueRouter({
             children: [
                 {
                     path: '/',
-                    component: About
+                    component: About,
+                    name: 'about'
                 },
                 {
                     path: 'images',
-                    component: Fotos
+                    component: Fotos,
+                    name: 'images'
                 },
                 {
                     path: 'reviews',
-                    component: Reviews
+                    component: Reviews,
+                    name: 'reviwes'
                 }
             ]
         },
         {
             path: '/category/:nombre',
-            component: Categoria
+            component: Categoria,
+            name: 'category'
         },
         {
             path: '*',
-            component: PagNoEncontrada
+            component: PagNoEncontrada,
+            name: 'pagNoEncontrada'
         }
     ]
 })
