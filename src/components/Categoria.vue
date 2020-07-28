@@ -1,34 +1,48 @@
 <template>
   <div class="container">
-      <h1 class="grey-text text-lighten-5">Lista de restaurantes <span>{{ $route.params.nombre }}</span></h1>
-      <ul>
-          <li>Lorem ipsum dolor  adipisicing elit.</li>
-          <li>sit amet consectetur</li>
-          <li>Non expedita, dolorem itaque cum dolor provident culpa,</li>
-          <li>rerum eveniet est eligendi autem aut sit minima,</li>
-          <li>eius sequi suscipit amet! Dicta, magni.</li>
-      </ul>
+    <h1 class="grey-text text-lighten-5">
+      Lista de restaurantes <span>{{ nombre_categoria }}</span>
+    </h1>
+    <ul>
+      <a href="">
+        <li>Lorem ipsum</li>
+      </a>
+      <a href="">
+        <li>Lorem ipsum</li>
+      </a>
+      <a href="">
+        <li>Lorem ipsum</li>
+      </a>
+    </ul>
   </div>
 </template>
 
 <script>
 export default {
-
-}
+  name: "Categoria",
+  props: {
+    nombre_categoria: String,
+  },
+};
 </script>
 
 <style scoped>
-.container {
-  text-align: center;
-}
 h1 {
   font-weight: 700;
+  text-align: center;
+}
+ul {
+  list-style-type: square !important;
 }
 li {
   font-weight: 700;
   font-size: 17pt;
+  margin: 20px 80px;
 }
 span {
   text-transform: capitalize;
+}
+a {
+  color: rgb(255, 138, 96);
 }
 </style>

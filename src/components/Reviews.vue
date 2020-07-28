@@ -40,11 +40,14 @@ export default {
 <style scoped>
 .container {
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.344);
+  padding-top: 1rem;
 }
 p {
   font-size: 13pt;
 }
 img {
   width: 100%;
+  margin-left: 5px;
 }
 </style>
